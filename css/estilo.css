@@ -1,0 +1,322 @@
+/* Estilos del cuerpo de la página */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+/* Estilos del header*/
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+/* Estilos de la barra de navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #0055A4;
+}
+
+/* Estilos de los elementos de la lista en la barra de navegación */
+nav li {
+    margin: 15px;
+}
+/* Estilos de los enlaces dentro de la barra de navegación */
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+}
+/* hover en los elementos de la lista */
+nav li:hover{
+    background-color: navy;
+}
+/* Estilo para el logo */
+.fotoLogo{
+    height: 25%;
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+/* Estilo para el teléfono */
+.telefono {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    margin-left: 1100px;
+}
+/* Estilo para las imágenes del teléfono */
+.telefono img {
+    width: 60px;
+    height: 60px;
+}
+/* Estilos para el contenido principal el main */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(0, 66, 110);
+    flex-direction: row-reverse;
+}
+/* Estilos de la información en el main */
+.informacion {
+    flex: 1;
+    margin-left: 20px;
+}
+/* Estilo para las imágenes de los productos */
+.foto {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #0078A1;
+}
+/* Estilos del footer */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Contenedor del footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+/* Estilos de las secciones dentro del footer */
+.footer-info, .footer-links, .footer-redes {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+/* Estilo para el logo del footer */
+.bibendum {
+    width: 120px;
+    margin-bottom: 10px;
+}
+/* Estilo para los enlaces del footer */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+/* Estilo para los elementos del footer*/
+.footer-links li {
+    margin: 5px 0;
+}
+/* Estilo para los enlaces en footer redes */
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Efecto hover en los enlaces del footer*/
+.footer-links a:hover {
+    text-decoration: underline;
+}
+/* Estilos para los íconos de redes sociales en el footer*/
+.footer-redes img {
+    width: 50px;
+    margin: 0 5px;
+}
+/* Estilos para los derechos en el footer */
+.footer-derechos {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+/* Estilos del formulario de productos */
+.formulario {
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+/* Estilos del título del formulario */
+.formulario h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* Estilos de las etiquetas del formulario */
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* Estilos de los campos*/
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Estilo del textarea */
+.formulario textarea {
+    resize: vertical;
+}
+/* Estilos del botón de envío del formulario */
+.formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #001d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* Estilo para el hover del botón */
+.formulario button:hover {
+    background-color: #0054a2;
+}
+/* Estilos de la sección de productos */
+.productos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Estilo para los encabezados de productos */
+h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Estilos para la tabla de productos */
+table {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    
+}
+/* Estilos para las celdas de la tabla */
+table th, table td {
+    padding: 10px;
+    border: 2px solid #ddd;
+    
+}
+/* Estilo para los encabezados de las celdas de la tabla */
+table th {
+    background-color: #0055A4;
+    color: white;
+    
+}
+/* Estilo para las filas de la tabla */
+table tr {
+    background-color: rgb(209, 209, 209);
+}
+/* Estilos para las fotos de las ruedas */
+.producto-imagen {
+    width: 18%;
+}
+/* Estilos para la sección "Sobre nosotros" */
+.sobre-nosotros {
+    text-align: center;
+}
+
+.sobre-nosotros h2, .sobre-nosotros h3 {
+    color: #003366;
+    text-align: center;
+}
+/* Estilo para los párrafos dentro de "Sobre nosotros" */
+.sobre-nosotros p {
+    text-align: justify;
+    line-height: 1.6;
+}
+/* Estilos para las imágenes de los trabajadores */
+.imagenes-trabajadores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+/* Estilos para las imágenes de los trabajadores */
+.imagenes-trabajadores img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* Estilos para los elementos de cliente */
+.cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(235, 235, 235);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 180px;
+}
+/* Estilos para los elementos de cliente */
+.cliente img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Estilos para el texto dentro de los elementos de cliente */
+.cliente p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #003366;
+}
+/* Efecto hover en los elementos de cliente */
+.cliente:hover {
+    transform: scale(1.1);
+}
+/* Estilos para el título de la sección de clientes */
+.titulo-clientes {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+/* Estilo para la descripción dentro de la sección de clientes */
+.descripcion {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 800px;
+    color: #323232;
+}
+/* Estilo para el contenedor de los clientes */
+.clientes-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+/* Estilos para dispositivos con pantalla pequeña (máximo 480px) */
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: white;
+    }
+}
+/* Estilos para dispositivos con pantallas medianas (481px a 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+}
+/* Estilos para dispositivos con pantallas grandes (más de 769px) */
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: white;
+    }
+}
