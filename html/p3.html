@@ -89,11 +89,11 @@
 
                 <!-- Selector de tipo de neumático -->
                 <label for="tipo-neumatico">¿Que tipo de neumático prefieres?</label><br>
-                <input type="radio" id="verano" name="tipo-neumatico" value="Verano"> <!-- Opción de neumático de verano -->
+                <input type="radio" id="tipo" name="tipo-neumatico" value="Verano"> <!-- Opción de neumático de verano -->
                 <label for="verano">Verano</label><br>
-                <input type="radio" id="invierno" name="tipo-neumatico" value="Invierno"> <!-- Opción de neumático de invierno -->
+                <input type="radio" id="tipo1" name="tipo-neumatico" value="Invierno"> <!-- Opción de neumático de invierno -->
                 <label for="invierno">Invierno</label><br>
-                <input type="radio" id="all-season" name="tipo-neumatico" value="All Season"> <!-- Opción de neumático All Season -->
+                <input type="radio" id="tipo2" name="tipo-neumatico" value="All Season"> <!-- Opción de neumático All Season -->
                 <label for="all-season">Todo el año</label>
 
                 <!-- Selector de cantidad de neumáticos -->
@@ -110,7 +110,8 @@
                 <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea> <!-- Campo de texto para comentarios adicionales -->
 
                 <!--Botón de envio-->
-                <button type="submit">Enviar</button>
+                <button type="button" onclick="guardarFormulario()">Guardar</button>
+                <button type="button" onclick="borrarFormulario()">Borrar</button>
             </form>
         </div>
     </div>
@@ -140,5 +141,6 @@
         </div>
         <p class="footer-derechos">© 2025 Michelin. Todos los derechos reservados.</p> 
     </footer> <!--Fin del footer-->
+    <script src="../js/funciones.js"></script>
 </body>
 </html>

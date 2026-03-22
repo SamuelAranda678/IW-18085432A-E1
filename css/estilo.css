@@ -3,6 +3,10 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: white;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* Estilos del header*/
 header {
     background-color: #003366;
@@ -16,6 +20,7 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: #0055A4;
+    flex-wrap: wrap;
 }
 
 /* Estilos de los elementos de la lista en la barra de navegación */
@@ -48,7 +53,7 @@ nav li:hover{
     justify-content: flex-end;
     position: absolute;
     top: 10px;
-    margin-left: 1100px;
+    right: 10px;
 }
 /* Estilo para las imágenes del teléfono */
 .telefono img {
@@ -318,5 +323,26 @@ table tr {
 @media only screen and (min-width: 769px) {
     body {
         background-color: white;
+    }
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .informacion {
+        margin-left: 0;
     }
 }
